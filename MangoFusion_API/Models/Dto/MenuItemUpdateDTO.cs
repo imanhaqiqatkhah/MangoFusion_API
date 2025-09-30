@@ -14,7 +14,6 @@ namespace MangoFusion_API.Models.Dto
         [Range(1, 10000000)]
         public double Price { get; set; }
 
-        [DataType(DataType.Upload)]
         public IFormFile? File { get; set; }
 
     }
